@@ -24,9 +24,9 @@
       <v-list-tile href="https://dev.to/vuevixens" target="_blank">
         <v-list-tile-title class="subheading">Blog</v-list-tile-title>
       </v-list-tile>
-      <v-list-tile href="https://shop.vuevixens.org/" target="_blank">
+      <!-- <v-list-tile href="https://shop.vuevixens.org/" target="_blank">
         <v-list-tile-title class="subheading">{{ $t("menu.shop") }}</v-list-tile-title>
-      </v-list-tile>
+      </v-list-tile> -->
     </v-list>
   </v-navigation-drawer>
 </template>
