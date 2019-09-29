@@ -11,7 +11,7 @@
       <v-btn flat to="/team" nuxt>{{ $t("menu.team") }}</v-btn>
       <v-btn flat to="/gallery" nuxt>{{ $t("menu.gallery") }}</v-btn>
       <v-btn flat href="https://dev.to/vuevixens" target="_blank">Blog</v-btn>
-      <v-btn flat href="https://vuevixens.com/" target="_blank">{{ $t("menu.shop") }}</v-btn>
+      <v-btn flat href="http://vuevixens.com/" target="_blank">{{ $t("menu.shop") }}</v-btn>
       <a class="github-link" flat href="https://github.com/VueVixens" target="_blank">
         <i class="fab fa-github fa-2x"></i>
       </a>
