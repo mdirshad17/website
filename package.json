@@ -21,12 +21,10 @@
     "@nuxtjs/google-analytics": "^2.0.2",
     "flag-icon-css": "^3.0.0",
     "markdown": "^0.5.0",
-    "node-sass": "^4.9.1",
     "nuxt": "^2.9.2",
+    "sass": "^1.23.0",
     "sass-loader": "^7.0.3",
     "storyblok-nuxt": "0.0.5",
-    "stylus": "^0.54.5",
-    "stylus-loader": "^3.0.2",
     "vue-i18n": "^8.0.0",
     "vue-moment": "^4.0.0",
     "vuetify": "^2.1.0"
