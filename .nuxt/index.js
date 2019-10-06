@@ -14,7 +14,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 import nuxt_plugin_axios_7e8c7fab from 'nuxt_plugin_axios_7e8c7fab' // Source: ./axios.js (mode: 'all')
 import nuxt_plugin_templatesplugindf1f96fa_3a5170a8 from 'nuxt_plugin_templatesplugindf1f96fa_3a5170a8' // Source: ./templates.plugin.df1f96fa.js (mode: 'all')
 import nuxt_plugin_googleanalytics_6b2220ca from 'nuxt_plugin_googleanalytics_6b2220ca' // Source: ./google-analytics.js (mode: 'client')
-import nuxt_plugin_vuetify_165b1c58 from 'nuxt_plugin_vuetify_165b1c58' // Source: ../plugins/vuetify (mode: 'all')
+import nuxt_plugin_vuetify_d6afc2c2 from 'nuxt_plugin_vuetify_d6afc2c2' // Source: ../plugins/vuetify.js (mode: 'all')
 import nuxt_plugin_eventBus_aaeb250a from 'nuxt_plugin_eventBus_aaeb250a' // Source: ../plugins/eventBus.js (mode: 'all')
 import nuxt_plugin_i18n_1fba523a from 'nuxt_plugin_i18n_1fba523a' // Source: ../plugins/i18n.js (mode: 'all')
 import nuxt_plugin_vuemoment_732aa8ba from 'nuxt_plugin_vuemoment_732aa8ba' // Source: ../plugins/vue-moment.js (mode: 'all')
@@ -163,8 +163,8 @@ async function createApp (ssrContext) {
     await nuxt_plugin_googleanalytics_6b2220ca(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_vuetify_165b1c58 === 'function') {
-    await nuxt_plugin_vuetify_165b1c58(app.context, inject)
+  if (typeof nuxt_plugin_vuetify_d6afc2c2 === 'function') {
+    await nuxt_plugin_vuetify_d6afc2c2(app.context, inject)
   }
 
   if (typeof nuxt_plugin_eventBus_aaeb250a === 'function') {
