@@ -16,24 +16,24 @@
         <v-layout wrap v-if="!!story.content">
           <v-flex xs6 md3 v-for="(item, index) in story.content.body" :key="item.img">
             <v-card class="gallery-image" flat @click.native="setCarouselStart(index)">
-              <no-ssr>
+              <client-only>
                 <v-img :src="item.img" height="200px" class="grey lighten-2">
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey darken-5"></v-progress-circular>
                   </v-layout>
                 </v-img>
-              </no-ssr>
+              </client-only>
             </v-card>
           </v-flex>
         </v-layout>
       </v-container>
     </v-container>
     <v-dialog v-model="dialog" v-if="!!story.content" max-width="960px">
-      <no-ssr>
+      <client-only>
         <v-carousel hide-delimiters v-model="currentPhotoIndex" :cycle="false" height="600px">
           <v-carousel-item v-for="item in story.content.body" :key="item.img" :src="item.img"></v-carousel-item>
         </v-carousel>
-      </no-ssr>
+      </client-only>
     </v-dialog>
   </v-layout>
 </template>
