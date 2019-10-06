@@ -1,6 +1,6 @@
 <template>
   <v-app-bar class="vv-toolbar" color="secondary darken-2" dark fixed app>
-    <v-toolbar-side-icon class="hidden-md-and-up" @click.stop="$emit('toggleDrawer')"></v-toolbar-side-icon>
+    <v-app-bar-nav-icon class="hidden-md-and-up" @click.stop="$emit('toggleDrawer')"></v-app-bar-nav-icon>
     <nuxt-link tag="v-toolbar-title" class="vv-logo" to="/">
       <img src="~/assets/images/logo.png" alt="VueVixens Logo" /> Vue Vixens
     </nuxt-link>
