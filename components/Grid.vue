@@ -3,7 +3,7 @@
     <v-layout wrap>
       <v-flex xs12 sm4 md3 v-for="(event, index) in events" :key="`${event.name}-${index}`">
         <v-card class="vv-card" hover :to="event.link.cached_url" nuxt>
-          <no-ssr>
+          <client-only>
             <v-img class="white--text vv-card-image grey lighten-2" height="200px" :src="event.img">
               <v-layout fill-height align-center justify-center ma-0>
                 <v-flex xs12 d-flex align-center justify-center class="event-name">
@@ -14,7 +14,7 @@
                 </v-flex>
               </v-layout>
             </v-img>
-          </no-ssr>
+          </client-only>
         </v-card>
       </v-flex>
     </v-layout>
