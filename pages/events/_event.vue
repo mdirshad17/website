@@ -59,7 +59,7 @@
       <v-divider></v-divider>
       <h1 class="text-xs-center primary--text font-lato mt-3">Sponsors</h1>
       <v-container pa-4>
-        <v-layout row wrap justify-space-around>
+        <v-layout row wrap justify-space-around align-center>
           <v-flex xs12 sm3 v-for="sponsor in currentEvent.sponsors" :key="sponsor.name">
             <div class="vv-day-sponsor px-4 mb-3">
               <a :href="sponsor.website.url" target="_blank">
