@@ -47,4 +47,8 @@ a,
 p {
   width: 100%;
 }
+
+.subheading, .v-card__title {
+  word-break: break-word;
+}
 </style>
