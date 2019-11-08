@@ -114,7 +114,7 @@ export default {
   margin-top: 20px;
 }
 
-.theme--dark.v-btn.v-btn--disabled:not(.v-btn--icon):not(.v-btn--flat) {
+.theme--dark.v-btn.v-btn--disabled:not(.v-btn--icon):not(.v-btn--text) {
   background-color: #373737 !important;
 }
 

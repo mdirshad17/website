@@ -125,7 +125,7 @@ export default {
 }
 
 .schedule {
-  /deep/ p {
+  >>> p {
     margin: 0;
   }
 }
