@@ -16,13 +16,13 @@
         <v-layout wrap v-if="!!story.content">
           <v-flex xs6 md3 v-for="(item, index) in story.content.body" :key="item.img">
             <v-card class="gallery-image" flat @click.native="setCarouselStart(index)">
-              <client-only>
+              <no-ssr>
                 <v-img :src="item.img" height="200px" class="grey lighten-2">
                   <v-layout slot="placeholder" fill-height align-center justify-center ma-0>
                     <v-progress-circular indeterminate color="grey darken-5"></v-progress-circular>
                   </v-layout>
                 </v-img>
-              </client-only>
+              </no-ssr>
             </v-card>
           </v-flex>
         </v-layout>
