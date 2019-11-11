@@ -127,6 +127,7 @@ export default {
 .card-button {
   margin-top: 20px;
 }
+
 .theme--dark.v-btn.v-btn--disabled:not(.v-btn--icon):not(.v-btn--flat) {
   background-color: #373737 !important;
 }
