@@ -2,7 +2,7 @@
   <v-container pt-4 pb-5>
     <v-layout wrap justify-space-around>
       <v-flex xs12 sm3 md2 pa-2 v-for="member in members" :key="member.name">
-        <v-card height="100%">
+        <v-card height="100%" class="vv-card">
           <v-img
             height="150px"
             :alt="`${member.name} picture`"
@@ -14,9 +14,9 @@
             </v-layout>
           </v-img>
           <v-card-title justify-center>
-            <p class="heading text-xs-center mb-1">{{member.name}}</p>
+            <p class="heading text-center mb-1">{{member.name}}</p>
             <a
-              class="subheading text-xs-center"
+              class="subheading text-center"
               v-if="member.twitter"
               target="_blank"
               :href="`http://www.twitter.com/${member.twitter}`"
