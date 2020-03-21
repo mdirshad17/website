@@ -117,7 +117,7 @@ a {
 		top: 16px;
 		-webkit-transform: skewY(-12deg);
 		transform: skewY(-39deg);
-		background: linear-gradient(220deg, #fff, #fff 27%, #47b784);
+		background: linear-gradient(220deg, #fff, #fff 27%, #1d5b88);
 	}
 }
 
@@ -135,13 +135,14 @@ a {
 
 @media (max-width: 960px) {
 	.vv-heading {
-		font-size: 26px;
+		font-size: 39px;
 	}
 	.vv-subheading {
 		font-size: 22px;
 		line-height: 30px;
 	}
 	.vv-sub-subheading {
+		font-size: 20px;
 		text-align: center;
 	}
 }

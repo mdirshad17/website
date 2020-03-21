@@ -1,35 +1,30 @@
 <template>
   <v-flex class="vv-cta">
     <v-container>
-      <v-card>
-        <v-container>
-          <v-row>
-            <v-col>
-              <v-img width="500px" class="align-end mentor" src="/images/mentoring.jpg"></v-img>
-            </v-col>
-
-            <v-col cols="auto" class="text-center pl-0">
-              <v-row class="flex-column ma-0 fill-height" justify="center">
-                <v-col class>
-                  <h2
-                    class="vv-subheading font-lato text-center text-md-right"
-                  >An initiative by Front-End Foxes</h2>
-                  <h3
-                    class="vv-sub-subheading font-lato text-center text-md-right"
-                  >Women helping women</h3>
-
-                  <v-btn class="cta-react" color="secondary darken-1">React Workshops coming soon</v-btn>
-                </v-col>
-              </v-row>
-            </v-col>
-          </v-row>
-        </v-container>
-      </v-card>
+      <v-layout class="card" align-center row wrap justify-space-between>
+        <v-flex xs12 sm12 md6 class="text-center" order-md1>
+          <v-img class="mentor" src="/images/mentoring.jpg"></v-img>
+        </v-flex>
+        <v-flex xs12 sm12 md6 order-md2>
+          <h2
+            class="vv-subheading font-lato text-center text-md-right"
+          >An initiative by Front-End Foxes</h2>
+          <h3 class="vv-sub-subheading font-lato text-center text-md-right">Women helping women</h3>
+          <v-flex text-center text-md-right>
+            <v-btn class="cta-react" color="secondary darken-1">React Workshops coming soon</v-btn>
+          </v-flex>
+        </v-flex>
+      </v-layout>
     </v-container>
   </v-flex>
 </template>
 
 <style scoped lang="scss">
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-right: 10px;
+}
 .cta-react {
   margin-top: 30px;
 }
@@ -39,13 +34,17 @@
 }
 
 .mentor {
-  border-radius: 5px;
+  max-width: 800px;
 }
 
 @media (max-width: 960px) {
   .cta-react {
     padding-top: 10px;
     text-align: center;
+  }
+  .card {
+    padding: 0px 0px 10px 0px;
+    margin: 5px;
   }
 }
 
