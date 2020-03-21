@@ -5,7 +5,7 @@
         <v-flex xs12 text-center>
           <h2 class="vv-subheading font-lato secondary--text text--darken-2">{{$t('eventsTitle')}}</h2>
         </v-flex>
-        <VVGrid :events="announcements"/>
+        <VVGrid :events="announcements" />
       </v-layout>
     </v-container>
   </div>
@@ -31,21 +31,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.vv-announcements {
-  background: url("../assets/images/jumbo.png");
-  background-size: contain;
-  position: relative;
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: linear-gradient(to top, #fff, #fff 27%, rgba(4, 30, 48, 0.3));
-  }
-}
-
 .vv-link {
   font-size: 24px;
   text-decoration: none;
