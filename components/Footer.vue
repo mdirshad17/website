@@ -25,7 +25,7 @@
       <a href="https://twitter.com/VueVixens" target="_blank">
         <i class="fab fa-twitter fa-2x"></i>
       </a>
-      <a href="https://communityinviter.com/apps/vuevixens/vue-vixens" target="_blank">
+      <a href="https://communityinviter.com/apps/vuevixens/front-end-foxes" target="_blank">
         <i class="fab fa-slack fa-2x"></i>
       </a>
     </v-layout>
