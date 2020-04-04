@@ -19,8 +19,8 @@
       <v-btn color="white" text rounded to="/about">{{ $t("charity") }}</v-btn>
     </v-layout>
     <v-layout justify-end align-center row wrap>
-      <nuxt-link to="/newsletter">
-        <i class="far fa-newspaper fa-2x"></i>
+      <nuxt-link to="/announcements">
+        <i class="fas fa-bullhorn fa-2x"></i>
       </nuxt-link>
       <a href="https://twitter.com/VueVixens" target="_blank">
         <i class="fab fa-twitter fa-2x"></i>

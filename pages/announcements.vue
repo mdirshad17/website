@@ -3,10 +3,10 @@
     <template>
       <v-container class="indexed">
         <v-flex xs12>
-          <h1 class="display-2 text-center">Join our Newsletter</h1>
+          <h1 class="display-2 text-center">Register to be Notified</h1>
           <p
             class="text-center"
-          >We will periodically send you news from the global organization or from your local chapter. We promise we won't spam!</p>
+          >We will periodically send you announcements of events from the global organization or from your local chapter. We promise we won't spam you!</p>
           <v-form
             action="https://vuevixens.us7.list-manage.com/subscribe/post?u=bb4724549551e6cf7bb5e3165&amp;id=ecd2dfeb93"
             method="post"
