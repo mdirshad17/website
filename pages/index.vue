@@ -4,7 +4,7 @@
       <v-container fill-height>
         <v-layout align-center row wrap justify-space-between>
           <v-flex xs12 sm12 md4 class="text-center" order-md2>
-            <img class="vv-logo" src="~/assets/images/ff-logo.png" alt="VueVixens logo" />
+            <img class="vv-logo" src="~/assets/images/ff-logo.png" alt="Front-End Foxes logo" />
           </v-flex>
           <v-flex xs12 sm12 md7 order-md1>
             <h1 class="vv-heading font-lato text-center text-md-left">{{$t('heading.title')}}</h1>
@@ -18,11 +18,12 @@
                 color="accent darken-1"
               >Vue Workshops</v-btn>
               <v-btn
-                href="https://www.meetup.com/vuevixens"
+                href="https://www.meetup.com/frontendfoxes"
                 target="_blank"
                 color="accent darken-1"
               >Meetups</v-btn>
               <v-btn
+              
                 href="https://www.patreon.com/vuevixens"
                 target="_blank"
                 color="accent darken-1"
