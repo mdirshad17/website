@@ -22,7 +22,7 @@
       <nuxt-link to="/announcements">
         <i class="fas fa-bullhorn fa-2x"></i>
       </nuxt-link>
-      <a href="https://twitter.com/VueVixens" target="_blank">
+      <a href="https://twitter.com/frontendfoxes" target="_blank">
         <i class="fab fa-twitter fa-2x"></i>
       </a>
       <a href="https://communityinviter.com/apps/vuevixens/front-end-foxes" target="_blank">
