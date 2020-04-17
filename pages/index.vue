@@ -13,7 +13,7 @@
             >{{$t('heading.description')}}</h2>
             <v-flex class="vv-cta">
               <v-btn
-                href="https://workshops.vuevixens.org/"
+                href="https://workshops.vuevixens.org/workshops/vue/"
                 target="_blank"
                 color="accent darken-1"
               >Vue Workshops</v-btn>

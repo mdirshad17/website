@@ -3,7 +3,7 @@ export default {
 		heading: {
 			title: 'Welcome!',
 			description:
-				'Vue Vixens are foxy people who identify as women and who want to learn Vue.js' +
+				'Front-End Foxes are people who identify as women and who want to learn front-end technologies' +
 				' to make websites and mobile apps',
 			workshops: 'Workshops',
 			patreon: 'Become a Patron',
