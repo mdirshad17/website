@@ -1,9 +1,6 @@
 <template>
   <v-layout class="vv-container">
     <v-container class="indexed">
-      <v-flex xs-12 text-center>
-        <img class="vv-logo" src="~/assets/images/logo.png" alt="VueVixens logo">
-      </v-flex>
       <v-flex xs12 v-if="!!story.content">
         <template v-for="(element, index) in story.content.body">
           <h2
