@@ -1,15 +1,13 @@
 module.exports = {
 	head: {
-		title:
-			'Vue Vixens - Workshops for foxy people to learn web and mobile technologies. An initiative of Front-End Foxes.',
+		title: 'Front-End Foxes - Workshops for women to learn web and mobile technologies.',
 		meta: [
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{
 				hid: 'description',
 				name: 'description',
-				content:
-					'Workshops for foxy people to learn web and mobile technologies. An initiative of Front-End Foxes.',
+				content: 'Workshops for women to learn web and mobile technologies.',
 			},
 			{ name: 'msapplication-TileColor', content: '#2b5797' },
 			{ name: 'msapplication-config', content: '/icons/browserconfig.xml' },
