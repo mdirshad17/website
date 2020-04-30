@@ -10,9 +10,9 @@
       <v-btn text to="/sponsors" nuxt>{{ $t('menu.sponsors') }}</v-btn>
       <v-btn text to="/team" nuxt>{{ $t('menu.team') }}</v-btn>
       <v-btn text to="/gallery" nuxt>{{ $t('menu.gallery') }}</v-btn>
-      <v-btn text href="https://dev.to/vuevixens" target="_blank">Blog</v-btn>
+      <v-btn text href="https://dev.to/frontendfoxes" target="_blank">Blog</v-btn>
       <v-btn text href="https://etsy.com/shop/vuevixens" target="_blank">{{ $t('menu.shop') }}</v-btn>
-      <a class="github-link" text href="https://github.com/VueVixens" target="_blank">
+      <a class="github-link" text href="https://github.com/frontendfoxes" target="_blank">
         <i class="fab fa-github fa-2x"></i>
       </a>
     </v-toolbar-items>
