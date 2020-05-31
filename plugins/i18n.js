@@ -13,6 +13,7 @@ export default ({ app }) => {
       pt: {},
       pt_br: {},
       fr: {},
+      jp: {}
     },
   });
 };

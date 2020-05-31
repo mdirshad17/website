@@ -14,7 +14,8 @@ export default {
       es: 'Español',
       pt: 'Português',
       pt_br: 'Português - BR',
-      fr: 'Français'
+      fr: 'Français',
+      jp: 'Japanese'
     }
   },
   es: {
@@ -88,5 +89,24 @@ export default {
       pt_br: 'Português - BR',
       fr: 'Français'
     }
-  }
+  },
+  jp: {
+    menu: {
+      about: 'About',
+      upcoming: 'Upcoming',
+      sponsors: 'Sponsors',
+      team: 'Team',
+      gallery: 'Gallery',
+      library: 'Library',
+      shop: 'Shop'
+    },
+    languages: {
+      en: '英語',
+      es: 'スペイン語',
+      pt: 'ポルトガル語',
+      pt_br: 'ポルトガル語（ブラジル）',
+      fr: 'フランス語',
+      jp: '日本語'
+    }
+  },
 }

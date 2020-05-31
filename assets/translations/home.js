@@ -5,8 +5,9 @@ export default {
 			description:
 				'Front-End Foxes are people who identify as women and who want to learn front-end technologies' +
 				' to make websites and mobile apps',
-			workshops: 'Workshops',
-			patreon: 'Become a Patron',
+			workshops: 'Vue Workshops',
+			meetups: 'Meetups',
+			patreon: 'Patreon',
 		},
 		eventsTitle: 'Upcoming Events',
 		skulk: {
@@ -21,6 +22,11 @@ export default {
 			title: 'Request',
 			content: 'Conference organizers, register to host a workshop.',
 		},
+		homebox: {
+			workshopsAndEvents: 'Workshops and Events',
+			helpingWomen: 'Women helping women',
+			reactWorkshops: 'React Workshops coming soon'
+		}
 	},
 	es: {
 		heading: {
@@ -113,5 +119,33 @@ export default {
 			title: 'Demande',
 			content: 'Organisateurs de conférence, inscrivez-vous pour organiser un atelier.',
 		},
+	},
+	jp: {
+		heading: {
+			title: 'ようこそ！',
+			description:
+				'Front-End Foxes は、Webサイトやモバイルアプリ開発のためのフロントエンド技術を学ぶ女性のコミュニティです。',
+			workshops: 'Vue ワークショップ',
+			meetups: 'ミートアップ',
+			patreon: '支援する',
+		},
+		eventsTitle: '今後のイベント',
+		skulk: {
+			title: 'コミュニティに参加',
+			content: 'Vue Vixens ワークショップでは無料で Vue.js の学習ができます！',
+		},
+		program: {
+			title: 'The Program',
+			content: 'Students and Mentors, learn more about our program.',
+		},
+		request: {
+			title: 'Request',
+			content: 'Conference organizers, register to host a workshop.',
+		},
+		homebox: {
+			workshopsAndEvents: 'ワークショップ＆イベント',
+			helpingWomen: '女性のメンターに教わろう！',
+			reactWorkshops: 'React ワークショップ 準備中'
+		}
 	},
 };
