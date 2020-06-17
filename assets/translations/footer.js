@@ -29,10 +29,4 @@ export default {
 		press: 'Press Kit',
 		charity: 'A 501(c)(3) Public Charity',
 	},
-	jp: {
-		credits: 'Credits',
-		contact: 'Contact Us',
-		press: 'Press Kit',
-		charity: 'A 501(c)(3) Public Charity',
-	},
 };

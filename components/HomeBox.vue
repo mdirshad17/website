@@ -6,25 +6,16 @@
           <v-img class="mentor" src="/images/mentoring.jpg"></v-img>
         </v-flex>
         <v-flex xs12 sm12 md6 order-md2>
-          <h2 class="vv-subheading font-lato text-center text-md-right">{{$t('homebox.workshopsAndEvents')}}</h2>
-          <h3 class="vv-sub-subheading font-lato text-center text-md-right">{{$t('homebox.helpingWomen')}}</h3>
+          <h2 class="vv-subheading font-lato text-center text-md-right">Workshops and Events</h2>
+          <h3 class="vv-sub-subheading font-lato text-center text-md-right">Women helping women</h3>
           <v-flex text-center text-md-right>
-            <v-btn class="cta-react" color="secondary darken-1">{{$t('homebox.reactWorkshops')}}</v-btn>
+            <v-btn class="cta-react" color="secondary darken-1">React Workshops coming soon</v-btn>
           </v-flex>
         </v-flex>
       </v-layout>
     </v-container>
   </v-flex>
 </template>
-
-<script>
-import messages from "../assets/translations/home";
-export default {
-  i18n: {
-    messages
-  }
-};
-</script>
 
 <style scoped lang="scss">
 .card {

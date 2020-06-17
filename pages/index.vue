@@ -16,18 +16,18 @@
                 href="https://workshops.vuevixens.org/workshops/vue/"
                 target="_blank"
                 color="accent darken-1"
-              >{{$t('heading.workshops')}}</v-btn>
+              >Vue Workshops</v-btn>
               <v-btn
                 href="https://www.meetup.com/frontendfoxes"
                 target="_blank"
                 color="accent darken-1"
-              >{{$t('heading.meetups')}}</v-btn>
+              >Meetups</v-btn>
               <v-btn
               
                 href="https://www.patreon.com/vuevixens"
                 target="_blank"
                 color="accent darken-1"
-              >{{$t('heading.patreon')}}</v-btn>
+              >Patreon</v-btn>
             </v-flex>
           </v-flex>
         </v-layout>

@@ -16,32 +16,6 @@
         <i class="fab fa-github fa-2x"></i>
       </a>
     </v-toolbar-items>
-    <v-toolbar-items>
-      <v-menu offset-y left dark transition="slide-x-transition">
-        <template v-slot:activator="{ on }">
-          <v-btn v-on="on" light depressed color="primary">
-            <span class="flag-icon" :class="currentLocale.flag"></span>
-            &nbsp;{{currentLocale.language}}
-          </v-btn>
-        </template>
-        <v-list class="secondary darken-2">
-          <v-list-item @click="changeLocale('en')">
-            <v-list-item-title>
-              <span class="flag-icon flag-icon-gb"></span>
-              {{ $t("languages.en") }}
-            </v-list-item-title>
-          </v-list-item>
-        </v-list>
-        <v-list class="secondary darken-2">
-          <v-list-item @click="changeLocale('jp')">
-            <v-list-item-title>
-              <span class="flag-icon flag-icon-jp"></span>
-              {{ $t("languages.jp") }}
-            </v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </v-menu>
-    </v-toolbar-items>
   </v-app-bar>
 </template>
 
@@ -76,17 +50,7 @@ export default {
             language: this.$t("languages.fr"),
             flag: "flag-icon-fr"
           };
-        case "jp":
-          return {
-            language: this.$t("languages.jp"),
-            flag: "flag-icon-jp"
-          };
       }
-    }
-  },
-  methods: {
-    changeLocale(locale) {
-      this.$bus.$emit("changeLocale", locale);
     }
   },
   i18n: {
